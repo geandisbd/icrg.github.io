@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <!-- <div class="form-group">
+                <label for="investment-limit">Límite de inversión</label>
+                <div class="bb">
+                  <input placeholder="Introducir limite de la inversion" type="text" id="investment-limit" name="investment-limit">
+                </div>
+            </div> -->
+            <div class="form-group">
+                <label for="initial-capital">Capital Inicial</label>
+                <div class="bb">
+                  <input value="0" placeholder="Introducir capital inicial" autocomplete="off" type="text" id="initial-capital" name="initial-capital">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="interest">Interés</label>
+               <div class="bb">
+                  <input value="0" disabled required placeholder="Introducir interes a recibir(decimal)" type="text" id="interest" name="interest"  autocomplete="off" >
+               </div>
+            </div>
+            <div class="form-group">
+                <label for="reinvestment-ratio">Proporción a Reinvertir</label>
+                <div class="bb">
+                  <input required placeholder="Introducir proporcion a reinvertir(decimal)" autocomplete="off" type="text" id="reinvestment-ratio" name="reinvestment-ratio">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="investment-length">Longitud de inversión</label>
+                <div class="select">
+                  <div class="bb">
+                    <input required placeholder="Introducir cantidad de tiempo" type="text" id="investment-length" name="investment-length"  autocomplete="off" >
+                  </div>
+                  <select>
+                    <option value="day">Día</option>
+                    <option value="month">Mes</option>
+                    <option value="year">Año</option>
+                </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <a href="assets/tiempo.html" id="button">
+                  Enviar
+                </a>
+            </div>
+        </form>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
